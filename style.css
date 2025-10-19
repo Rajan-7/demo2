@@ -98,7 +98,7 @@ header {
 }
 
 header h1 {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   margin-bottom: 1rem;
   margin-top: 2rem;
 }
@@ -257,6 +257,71 @@ li {
 #benefits li:hover .fa-heart {
   transform: scale(1.2);
   transition: transform 0.2s ease;
+}
+
+/* hero-instinct section */
+#hero-instinct {
+  color: #fff;
+  padding: 5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#hero-instinct h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  line-height: 1.4;
+  width: 100%;
+}
+
+#hero-instinct .highlight {
+  color: #92fe9d;
+  font-weight: 700;
+}
+
+.hero-instinct-details {
+  flex: 1 1 55%;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.hero-instinct-details p {
+  margin-bottom: 1.2rem;
+}
+
+.hero-instinct-details a {
+  color: #e6a0a0;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.hero-instinct-details a:hover {
+  color: #b71c1c;
+}
+
+.hero-instinct-image {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.hero-instinct-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.4s ease;
+}
+
+.hero-instinct-image img:hover {
+  transform: scale(1.05);
 }
 
 /* Popup Overlay */
@@ -522,6 +587,32 @@ footer {
 
   .navbar .nav-links li a {
     font-size: 1.2rem;
+  }
+
+  #hero-instinct {
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 1.5rem;
+  }
+
+  #hero-instinct h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .hero-instinct-details {
+    flex: 1 1 100%;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .hero-instinct-image {
+    flex: 1 1 100%;
+    margin-top: 2rem;
+  }
+
+  .hero-instinct-image img {
+    max-width: 90%;
   }
 }
 
